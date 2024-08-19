@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Müzik</title>
+</head>
+<style>
+  html {
+  font-size: 20px;
+  font-family: sans-serif;
+  }
+article {
+  max-width: 700px;
+   margin-left: auto;
+  margin-right: auto;
+  }
+.navbar{
+  height: 8vh;
+   width: 100%;
+   background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+.dnt{
+  text-decoration: none;
+   color: whitesmoke;
+}
+.container {
+  background-image: url(assent/img/arkaplan.jpg);
+   height: 100vh;
+   background-size: 100% 100%;
+    background-attachment: fixed;
+    }
+p,h1 {
+  color: white;
+}
+.slider {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  
+}
+.slider-content {
+  width: 400%;
+ position: absolute;
+ left: 0%;
+  animation: slide 10s infinite;
+}
+.slider-item {
+  width: 30%;
+ float: left;
+ padding: 5px;
+} 
+ @keyframes slide {
+
+   0% {left: 0%;}
+   50% {left: -100%;}
+   100% {left: -200%;}
+   
+
+
+  }
+
+</style>
+<div class="container">
+<nav class="navbar">
+  <strong><p class="dnt">ÇOKAMAÇLI<br>SİTE.COM</p></strong> 
+  <a href="index.html" class="dnt">Anasayfa</a>
+ <a href="yemeksitesi.html" class="dnt">Yemek Bölümü</a>
+   <a href="hastane.html" class="dnt">Hastane</a>
+   <a href="otel.html" class="dnt">Otel</a>
+   <a href="gezi.html" class="dnt">Gezi</a>
+   <a href="muzik.html" class="dnt">Müzik</a>
+  </nav>
+ 
+<article>
+<body>
+   
+   <h1>Müzik Sitemize Hoşgeldiniz</h1>
+     <ul>
+      <a href="tarkan.html" target="_blank"><li>Tarkan</li></a>
+     <a href="fazilsay.html" target="_blank"> <li>Fazıl Say</li></a>
+     <a href="sila.html" target="_blank"> <li>Sıla</li></a>
+     </ul>
+      
+    <p>Türk müziğinin üç önemli ismi, Tarkan, Sıla ve Fazıl Say, farklı tarz ve yetenekleriyle müzik dünyasında derin izler bırakmış sanatçılardır. Tarkan, 1990'ların başından itibaren pop müziğin en ön plandaki isimlerinden biri olarak tanındı ve "Megastar" unvanıyla uluslararası alanda da büyük başarılar elde etti. Sıla, modern Türk pop müziğinin güçlü temsilcilerinden olup, etkileyici vokali ve derinlemesine şarkı sözleriyle dinleyicilerin kalbinde yer edinmiştir. Fazıl Say ise, hem klasik hem de çağdaş müzik alanında tanınan bir piyanist ve besteci olarak, uluslararası arenada saygı gören bir sanatçı olarak dikkat çeker. Bu üç sanatçı, kendi alanlarında yarattıkları özgün seslerle ve başarılı projeleriyle Türk müziğinin çeşitliliğini ve zenginliğini yansıtmaktadır.</p>
+     <strong><p>Tarkan Umut ve Selinin fotoğrafları </p></strong>
+     <div class="slider">
+     <div class="slider-content">
+      
+      <div class="slider-item">
+        <img src="assent/img/gitarist.jpg" alt="gitarist fotosu" width="500">
+    </div>
+    <div class="slider-item">
+      <img src="assent/img/umut.jpg" alt="davulcu fotosu" width="500">
+  </div>
+  <div class="slider-item">
+    <img src="assent/img/selin.jpg" alt="şarkıcı fotosu" width="500">
+</div>
+
+
+
+</div>
+
+</div>
+
+      
+     </div>
+
+
+     </div>
+    </article>
+</div>
+</body>
+</html>
